@@ -5,7 +5,7 @@ updated:12/2/2022
 version:1.0.0
 desc:A clicker that ironically, you do not want to play in your office.
 Settings
-background:https://www.shutterstock.com/image-illustration/old-english-newspapers-background-260nw-294853382.jpg
+background:https://i.etsystatic.com/7942433/r/il/c53f7b/2794362434/il_570xN.2794362434_nr2m.jpg
 building cost increase:112%
 building cost refund:75%
 CSS

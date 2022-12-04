@@ -1,0 +1,33 @@
+Let's make a game!
+name:Aahan
+created:12/2/2022
+updated:12/2/2022
+version:1.0.0
+desc:A clicker that ironically, you do not want to play in your office.
+Settings
+background:https://www.shutterstock.com/image-illustration/old-english-newspapers-background-260nw-294853382.jpg
+building cost increase:112%
+building cost refund:75%
+CSS
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+  #game
+  {
+    background:Gainsboro;
+    font-family:'Courier Prime', monospace;;
+    color:black;
+  }
+  #game.filtersOn .thing.cantAfford.notOwned
+  {
+    filter:blur(5px);
+  }
+Layout
+  *resources
+    contains:Resources
+    header:These are your resources.
+  *buildings
+    contains:Buildings
+    header:These are things you can build.
+    tooltip origin:left
+  *unlockables
+    contains:Upgrades, Achievements
+    names:hide
